@@ -9,11 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+![alt astronomy](../images/pink_planet.jpg)
+======
+* pink planet，GJ 504b
+
+---
 ![alt movie](../images/psc.jpg)
 ======
 * movies: Big Fish
-
----
-![alt movie](../images/pink_planet.jpg)
-======
-* pink planet，GJ 504b
