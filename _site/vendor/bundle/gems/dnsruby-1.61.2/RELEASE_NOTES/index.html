@@ -1,0 +1,568 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Release Notes - Huimin Qu</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Huimin Qu">
+<meta property="og:title" content="Release Notes">
+
+
+  <link rel="canonical" href="https://huiminqu.github.io/vendor/bundle/gems/dnsruby-1.61.2/RELEASE_NOTES/">
+  <meta property="og:url" content="https://huiminqu.github.io/vendor/bundle/gems/dnsruby-1.61.2/RELEASE_NOTES/">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Huimin Qu",
+      "url" : "https://huiminqu.github.io",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://huiminqu.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Huimin Qu Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://huiminqu.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://huiminqu.github.io/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://huiminqu.github.io/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://huiminqu.github.io/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://huiminqu.github.io/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://huiminqu.github.io/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://huiminqu.github.io/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://huiminqu.github.io/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://huiminqu.github.io/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://huiminqu.github.io/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="https://huiminqu.github.io/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="https://huiminqu.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://huiminqu.github.io/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://huiminqu.github.io/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://huiminqu.github.io/assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://huiminqu.github.io/">Huimin Qu</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://huiminqu.github.io/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://huiminqu.github.io/projects/">Projects</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://huiminqu.github.io/cv/">CV</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="https://huiminqu.github.io/images/profile.jpeg" class="author__avatar" alt="Huimin Qu">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Huimin Qu</h3>
+    <p class="author__bio">Undergraduate Student at Xiamen University. Research area: Astrophysics.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Xiamen, China</li>
+      
+      
+      
+      
+        <li><a href="mailto:quhuimin@stu.xmu.edu.cn"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/HuiminQu"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Release Notes">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Release Notes
+</h1>
+          
+        
+        
+        
+        
+             
+        
+    
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h1 id="release-notes">Release Notes</h1>
+
+<p>##v1.61.2</p>
+
+<ul>
+  <li>Add new root key</li>
+</ul>
+
+<h2 id="v1611">v1.61.1</h2>
+
+<ul>
+  <li>Add Addressable as a gem runtime dependency</li>
+</ul>
+
+<h2 id="v1610">v1.61.0</h2>
+
+<ul>
+  <li>Add URI, CDS and CDNSKEY records</li>
+  <li>Supply port to DNS.new as optiona parameter</li>
+  <li>Supply timeout to zone transfer connect</li>
+  <li>Fix multi-line strings</li>
+  <li>Try absolute name as candidate in DNS even if not dot supplied</li>
+  <li>Do not try to generate candidates if no domain is given</li>
+  <li>Handle new OpenSSL interface as well as old</li>
+  <li>Handle new DSA interface</li>
+  <li>fix encode error select thread issue</li>
+  <li>handle encoding errors</li>
+  <li>add punycode support</li>
+  <li>Make sure dnssec is enabled in verifier and also in digroot demo</li>
+  <li>Other minor fixes and changes to test code and infrastructure</li>
+</ul>
+
+<h2 id="v1602">v1.60.2</h2>
+
+<ul>
+  <li>Fix deletion of TXT records with spaces in dynamic updates (thanks Sean Dilda)</li>
+  <li>Fix use of non-default ports in Dnsruby::Resolver (thanks Thomas Morgan)</li>
+  <li>Fix NAPTR encoding for null rdata dynamic update packets</li>
+  <li>Fix CAA resource record encoding</li>
+  <li>Avoid changing ruby global thread abort behavior (thanks Brent Cook)</li>
+</ul>
+
+<h2 id="v1601">v1.60.1</h2>
+
+<ul>
+  <li>DNSSEC validation switched OFF by default (but can still be switched on)</li>
+  <li>Add APL RR support (thanks Manabu Sonoda)</li>
+  <li>Various test fixes (thanks Keith Bennett)</li>
+  <li>‘include’ issues fixed (thanks Keith Bennett!)</li>
+  <li>Fixnum replacement (thanks Keith Bennett)</li>
+  <li>Zone transfer fixes (thanks Manabu Sonoda)</li>
+  <li>Name decoding fix</li>
+  <li>MX record passing error now raised</li>
+  <li>CAA RR support (thanks Richard Luther)</li>
+  <li>TLSA RR support (thanks Manabu Sonoda)</li>
+</ul>
+
+<h2 id="v1600">v1.60.0</h2>
+
+<ul>
+  <li>TCP multi-packet support fixed</li>
+  <li>Response ‘Message’ now included with exception.</li>
+  <li>Docs added</li>
+  <li>CNAME dynamic update fix</li>
+</ul>
+
+<h2 id="v1593">v1.59.3</h2>
+
+<ul>
+  <li>Output TXT record multiple strings correctly</li>
+  <li>NONE class encoding fix</li>
+  <li>only add name labels if there are any</li>
+</ul>
+
+<h2 id="v1592">v1.59.2</h2>
+
+<ul>
+  <li>Timeout error fix</li>
+</ul>
+
+<h2 id="v1591">v1.59.1</h2>
+
+<ul>
+  <li>Support for HMAC SHA512 TSIG keys</li>
+  <li>Fix TCP pipelining tests</li>
+  <li>IDN encoding error returned as Dnsruby::OtherResolvError</li>
+</ul>
+
+<h2 id="v1590">v1.59.0</h2>
+
+<ul>
+  <li>Add LICENSE file</li>
+  <li>Add Cache max_size (gihub issue 64)</li>
+  <li>Disable caching for SOA lookups in demo check_soa.rb</li>
+  <li>Fix for invalid nameserver in config</li>
+  <li>Fix encoding for OPT data (thanks Craig Despeaux)</li>
+  <li>Various test system fixes</li>
+  <li>OPT fixes</li>
+  <li>DNSSEC verification failure handling wrt lack of DS chain</li>
+  <li>DNSSEC validation policy name constants</li>
+  <li>Fix for BOGUS DLV chains</li>
+  <li>demo upgrades</li>
+  <li>Resolver hints improvements</li>
+</ul>
+
+<h2 id="v1580">v1.58.0</h2>
+
+<ul>
+  <li>Add TCP pipelining (reusing a single TCP connection for multiple requests).</li>
+  <li>Enhance zone reading, including reading data from a string.</li>
+  <li>Add add_answer! method for adding duplicate answers, as needed for an AXFR response.</li>
+  <li>Add support for GPOS and NXT resource records.</li>
+  <li>Test cleanup, including removal of use of Nominet servers, soak_test cleanup.</li>
+  <li>Refactorings: MessageDecoder, Resolv, Resolver (part).</li>
+  <li>Fix zone reader adding unwanted dot to relative hostnames being converted to absolute.</li>
+  <li>Fix default access for tsig options in Resolver.</li>
+  <li>Fix ZoneTransfer not to use deprecated SingleResolver.</li>
+  <li>Fix Resolver bug in parameter to create_tsig_options.</li>
+  <li>Fix tests to always use working copy and not gem.</li>
+</ul>
+
+<h2 id="v1570">v1.57.0</h2>
+
+<ul>
+  <li>Add query_raw method as alias for send_plain_message, with option to raise or return error.</li>
+  <li>Fixed a bug in RR hash calculation where TTL should have been ignored but wasn’t.</li>
+  <li>Add support for (obsolete) GPOS resource record type.</li>
+  <li>Tweak Travis CI configuration.</li>
+  <li>Fix zone reader for case where a line contains whitespace preceding a comment.</li>
+  <li>Add post install message.</li>
+  <li>Improve README.</li>
+  <li>Moved content of NEWS to RELEASE_NOTES.md.</li>
+  <li>Use git ls-files now to determine files for inclusion in gem.</li>
+</ul>
+
+<h2 id="v1560">v1.56.0</h2>
+
+<ul>
+  <li>Drop support for Ruby 1.8, using lambda -&gt; and hash ‘key: value’ notations.</li>
+  <li>First release since the move from Rubyforge to Github (https://github.com/alexdalitz/dnsruby).</li>
+  <li>Add EDNS client subnet support.</li>
+  <li>Relocate CodeMapper subclasses, Resolv, RR, and RRSet classes.</li>
+  <li>Add Travis CI and coveralls integration.</li>
+  <li>Improve Google IPV6 support.</li>
+  <li>Convert some file names to snake case.</li>
+  <li>Remove trailing whitespace from lines, and ensure that comments have space between ‘#’ and text.</li>
+  <li>Restore test success when running under JRuby.</li>
+  <li>Disabled attempt to connect to Nominet servers, which are no longer available.</li>
+  <li>Convert from test/unit to minitest/autorun to support Ruby 2.1+.</li>
+  <li>Remove setup.rb.</li>
+  <li>Other minor refactoring and improvements to production code, test code, and documentation.</li>
+</ul>
+
+<h2 id="v153">v1.53</h2>
+
+<ul>
+  <li>Validation routine fixes</li>
+  <li>Ruby 1.9 fixes</li>
+  <li>Recursor fixes</li>
+  <li>IPv4 Regex fixes</li>
+  <li>Fixes for A/PTR lookups with IP-like domain name</li>
+  <li>TXT and SSHFP processing fixes</li>
+  <li>Default retry parameters in Resolver more sensible</li>
+</ul>
+
+<h2 id="v148">v1.48</h2>
+
+<ul>
+  <li>Fixed deadlock/performance issue seen on some platforms</li>
+  <li>DNSSEC validation now disabled by default</li>
+  <li>Signed root DS record can be added to validator</li>
+  <li>ITAR support removed</li>
+  <li>multi-line DS/RRSIG reading bug fixed (thanks Marco Davids!)</li>
+  <li>DS algorithms of more than one digit can now be read from string</li>
+  <li>LOC records now parsed correctly</li>
+  <li>HINFO records now parsed correctly</li>
+</ul>
+
+<h2 id="v142">v1.42</h2>
+
+<ul>
+  <li>Complicated TXT and NAPTR records now handled correctly</li>
+  <li>ZoneReader now handles odd escape characters correctly</li>
+  <li>Warns when immediate timeout occurs because no nameservers are configured</li>
+  <li>Easy hmac-sha1/256 options to Resolver#tsig=</li>
+  <li>ZoneReader fixed for “IN CNAME @” notations</li>
+  <li>ZoneReader supports wildcards</li>
+  <li>Dnsruby.version method added - currently returns 1.42</li>
+</ul>
+
+<h2 id="v141">v1.41</h2>
+
+<ul>
+  <li>RFC3597 unknown classes (e.g. CLASS32) now handled correctly
+  in RRSIGs</li>
+  <li>Resolver#do_caching flag added for Resolver-level caching</li>
+  <li>DNSKEY#key_tag now cached - only recalculated when key data
+  changes</li>
+  <li>Bugfix where Resolver would not time queries out if no 
+  nameservers were configured</li>
+  <li>Recursor now performs A and AAAA queries in parallel</li>
+  <li>Fix for zero length salt</li>
+  <li>Fixing priming for signed root</li>
+  <li>Fixes for DLV verification</li>
+  <li>Other minor fixes</li>
+</ul>
+
+<h2 id="v140">v1.40</h2>
+
+<ul>
+  <li>Zone file reading support added (Dnsruby::ZoneReader)</li>
+  <li>Name and Label speed-ups</li>
+  <li>CodeMapper speed-ups</li>
+  <li>DHCID RR added</li>
+  <li>LOC presentation format parsing fixed</li>
+  <li>KX RR added</li>
+  <li>Quotations now allowed in text representation for ISDN, X25 and HINFO</li>
+  <li>AFSDB from_string fixes</li>
+  <li>Fixing CERT types and from_string</li>
+  <li>CERT now allows algorithm 0</li>
+  <li>Fix for DS record comparison</li>
+  <li>HIP RR added</li>
+  <li>Minor bug fixes</li>
+  <li>IPSECKEY RR added</li>
+  <li>Clients can now manipulate Name::Labels</li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    </script>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/HuiminQu"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://huiminqu.github.io/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Huimin Qu. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="https://huiminqu.github.io/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+  </body>
+</html>
+

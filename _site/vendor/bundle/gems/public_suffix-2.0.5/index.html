@@ -1,0 +1,515 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Public Suffix for Ruby - Huimin Qu</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Huimin Qu">
+<meta property="og:title" content="Public Suffix for Ruby">
+
+
+  <link rel="canonical" href="https://huiminqu.github.io/vendor/bundle/gems/public_suffix-2.0.5/">
+  <meta property="og:url" content="https://huiminqu.github.io/vendor/bundle/gems/public_suffix-2.0.5/">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Huimin Qu",
+      "url" : "https://huiminqu.github.io",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://huiminqu.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Huimin Qu Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://huiminqu.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://huiminqu.github.io/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://huiminqu.github.io/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://huiminqu.github.io/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://huiminqu.github.io/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://huiminqu.github.io/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://huiminqu.github.io/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://huiminqu.github.io/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://huiminqu.github.io/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://huiminqu.github.io/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="https://huiminqu.github.io/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="https://huiminqu.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://huiminqu.github.io/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://huiminqu.github.io/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://huiminqu.github.io/assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://huiminqu.github.io/">Huimin Qu</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://huiminqu.github.io/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://huiminqu.github.io/projects/">Projects</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://huiminqu.github.io/cv/">CV</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="https://huiminqu.github.io/images/profile.jpeg" class="author__avatar" alt="Huimin Qu">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Huimin Qu</h3>
+    <p class="author__bio">Undergraduate Student at Xiamen University. Research area: Astrophysics.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Xiamen, China</li>
+      
+      
+      
+      
+        <li><a href="mailto:quhuimin@stu.xmu.edu.cn"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/HuiminQu"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Public Suffix for Ruby">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Public Suffix for Ruby
+</h1>
+          
+        
+        
+        
+        
+             
+        
+    
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h1 id="public-suffix-for-ruby">Public Suffix <small>for Ruby</small></h1>
+
+<p><tt>PublicSuffix</tt> is a Ruby domain name parser based on the <a href="https://publicsuffix.org/">Public Suffix List</a>.</p>
+
+<p><a href="https://travis-ci.org/weppos/publicsuffix-ruby"><img src="https://travis-ci.org/weppos/publicsuffix-ruby.svg?branch=master" alt="Build Status" /></a></p>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+  <li>Ruby &gt;= 2.0</li>
+</ul>
+
+<p>For an older versions of Ruby use a previous release.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>You can install the gem manually:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>public_suffix
+</code></pre></div></div>
+
+<p>Or use Bundler and define it as a dependency in your <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s1">'public_suffix'</span>
+</code></pre></div></div>
+
+<p>If you are upgrading to 2.0, see <a href="/vendor/bundle/gems/public_suffix-2.0.5/2.0-Upgrade/">2.0-Upgrade.md</a>.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>Extract the domain out from a name:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">domain</span><span class="p">(</span><span class="s2">"google.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; "google.com"</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">domain</span><span class="p">(</span><span class="s2">"www.google.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; "google.com"</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">domain</span><span class="p">(</span><span class="s2">"www.google.co.uk"</span><span class="p">)</span>
+<span class="c1"># =&gt; "google.co.uk"</span>
+</code></pre></div></div>
+
+<p>Parse a domain without subdomains:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">domain</span> <span class="o">=</span> <span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="s2">"google.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; #&lt;PublicSuffix::Domain&gt;</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">tld</span>
+<span class="c1"># =&gt; "com"</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">sld</span>
+<span class="c1"># =&gt; "google"</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">trd</span>
+<span class="c1"># =&gt; nil</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">domain</span>
+<span class="c1"># =&gt; "google.com"</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">subdomain</span>
+<span class="c1"># =&gt; nil</span>
+</code></pre></div></div>
+
+<p>Parse a domain with subdomains:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">domain</span> <span class="o">=</span> <span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="s2">"www.google.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; #&lt;PublicSuffix::Domain&gt;</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">tld</span>
+<span class="c1"># =&gt; "com"</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">sld</span>
+<span class="c1"># =&gt; "google"</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">trd</span>
+<span class="c1"># =&gt; "www"</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">domain</span>
+<span class="c1"># =&gt; "google.com"</span>
+<span class="n">domain</span><span class="p">.</span><span class="nf">subdomain</span>
+<span class="c1"># =&gt; "www.google.com"</span>
+</code></pre></div></div>
+
+<p>Simple validation example:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">valid?</span><span class="p">(</span><span class="s2">"google.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; true</span>
+
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">valid?</span><span class="p">(</span><span class="s2">"www.google.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; true</span>
+
+<span class="c1"># Explicitly forbidden, it is listed as a private domain</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">valid?</span><span class="p">(</span><span class="s2">"blogspot.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; false</span>
+</code></pre></div></div>
+
+<h2 id="fully-qualified-domain-names">Fully Qualified Domain Names</h2>
+
+<p>This library automatically recognizes Fully Qualified Domain Names. A FQDN is a domain name that end with a trailing dot.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Parse a standard domain name</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">domain</span><span class="p">(</span><span class="s2">"www.google.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; "google.com"</span>
+
+<span class="c1"># Parse a fully qualified domain name</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">domain</span><span class="p">(</span><span class="s2">"www.google.com."</span><span class="p">)</span>
+<span class="c1"># =&gt; "google.com"</span>
+</code></pre></div></div>
+
+<h2 id="private-domains">Private domains</h2>
+
+<p>This library has support for switching off support for private (non-ICANN).</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Extract a domain including private domains (by default)</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">domain</span><span class="p">(</span><span class="s2">"something.blogspot.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; "something.blogspot.com"</span>
+
+<span class="c1"># Extract a domain excluding private domains</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">domain</span><span class="p">(</span><span class="s2">"something.blogspot.com"</span><span class="p">,</span> <span class="ss">ignore_private: </span><span class="kp">true</span><span class="p">)</span>
+<span class="c1"># =&gt; "blogspot.com"</span>
+
+<span class="c1"># It also works for #parse and #valid?</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="s2">"something.blogspot.com"</span><span class="p">,</span> <span class="ss">ignore_private: </span><span class="kp">true</span><span class="p">)</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">valid?</span><span class="p">(</span><span class="s2">"something.blogspot.com"</span><span class="p">,</span> <span class="ss">ignore_private: </span><span class="kp">true</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>If you don’t care about private domains at all, it’s more efficient to exclude them when the list is parsed:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Disable support for private TLDs</span>
+<span class="no">PublicSuffix</span><span class="o">::</span><span class="no">List</span><span class="p">.</span><span class="nf">default</span> <span class="o">=</span> <span class="no">PublicSuffix</span><span class="o">::</span><span class="no">List</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="no">File</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="no">PublicSuffix</span><span class="o">::</span><span class="no">List</span><span class="o">::</span><span class="no">DEFAULT_LIST_PATH</span><span class="p">),</span> <span class="ss">private_domains: </span><span class="kp">false</span><span class="p">)</span>
+<span class="c1"># =&gt; "blogspot.com"</span>
+<span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">domain</span><span class="p">(</span><span class="s2">"something.blogspot.com"</span><span class="p">)</span>
+<span class="c1"># =&gt; "blogspot.com"</span>
+</code></pre></div></div>
+
+<h2 id="what-is-the-public-suffix-list">What is the Public Suffix List?</h2>
+
+<p>The <a href="https://publicsuffix.org">Public Suffix List</a> is a cross-vendor initiative to provide an accurate list of domain name suffixes.</p>
+
+<p>The Public Suffix List is an initiative of the Mozilla Project, but is maintained as a community resource. It is available for use in any software, but was originally created to meet the needs of browser manufacturers.</p>
+
+<p>A “public suffix” is one under which Internet users can directly register names. Some examples of public suffixes are “.com”, “.co.uk” and “pvt.k12.wy.us”. The Public Suffix List is a list of all known public suffixes.</p>
+
+<h2 id="why-the-public-suffix-list-is-better-than-any-available-regular-expression-parser">Why the Public Suffix List is better than any available Regular Expression parser?</h2>
+
+<p>Previously, browsers used an algorithm which basically only denied setting wide-ranging cookies for top-level domains with no dots (e.g. com or org). However, this did not work for top-level domains where only third-level registrations are allowed (e.g. co.uk). In these cases, websites could set a cookie for co.uk which will be passed onto every website registered under co.uk.</p>
+
+<p>Clearly, this was a security risk as it allowed websites other than the one setting the cookie to read it, and therefore potentially extract sensitive information.</p>
+
+<p>Since there is no algorithmic method of finding the highest level at which a domain may be registered for a particular top-level domain (the policies differ with each registry), the only method is to create a list of all top-level domains and the level at which domains can be registered. This is the aim of the effective TLD list.</p>
+
+<p>As well as being used to prevent cookies from being set where they shouldn’t be, the list can also potentially be used for other applications where the registry controlled and privately controlled parts of a domain name need to be known, for example when grouping by top-level domains.</p>
+
+<p>Source: https://wiki.mozilla.org/Public_Suffix_List</p>
+
+<p>Not convinced yet? Check out <a href="https://stackoverflow.com/q/288810/123527">this real world example</a>.</p>
+
+<h2 id="does-publicsuffix-make-requests-to-public-suffix-list-website">Does <tt>PublicSuffix</tt> make requests to Public Suffix List website?</h2>
+
+<p>No. <tt>PublicSuffix</tt> comes with a bundled list. It does not make any HTTP requests to parse or validate a domain.</p>
+
+<h2 id="feedback-and-bug-reports">Feedback and bug reports</h2>
+
+<p>If you use this library and find yourself missing any functionality, please <a href="mailto:weppos@weppos.net">let me know</a>.</p>
+
+<p>Pull requests are very welcome! Please include tests and/or feature coverage for every patch, and create a topic branch for every separate change you make.</p>
+
+<p>Report issues or feature requests to <a href="https://github.com/weppos/publicsuffix-ruby/issues">GitHub Issues</a>.</p>
+
+<h2 id="more">More</h2>
+
+<ul>
+  <li><a href="https://simonecarletti.com/code/publicsuffix-ruby">Homepage</a></li>
+  <li><a href="https://github.com/weppos/publicsuffix-ruby">Repository</a></li>
+  <li><a href="http://rubydoc.info/gems/public_suffix">API Documentation</a></li>
+  <li><a href="https://simonecarletti.com/blog/2010/06/public-suffix-list-library-for-ruby/">Introducing the Public Suffix List library for Ruby</a></li>
+</ul>
+
+<h2 id="changelog">Changelog</h2>
+
+<p>See the <a href="/vendor/bundle/gems/public_suffix-2.0.5/CHANGELOG/">CHANGELOG.md</a> file for details.</p>
+
+<h2 id="license">License</h2>
+
+<p>Copyright (c) 2009-2017 Simone Carletti. This is Free Software distributed under the MIT license.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    </script>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/HuiminQu"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://huiminqu.github.io/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Huimin Qu. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="https://huiminqu.github.io/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+  </body>
+</html>
+

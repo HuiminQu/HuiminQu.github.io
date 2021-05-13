@@ -1,0 +1,629 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Addressable 2.5.2 - Huimin Qu</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Huimin Qu">
+<meta property="og:title" content="Addressable 2.5.2">
+
+
+  <link rel="canonical" href="https://huiminqu.github.io/vendor/bundle/gems/addressable-2.5.2/CHANGELOG/">
+  <meta property="og:url" content="https://huiminqu.github.io/vendor/bundle/gems/addressable-2.5.2/CHANGELOG/">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Huimin Qu",
+      "url" : "https://huiminqu.github.io",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://huiminqu.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Huimin Qu Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://huiminqu.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://huiminqu.github.io/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://huiminqu.github.io/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://huiminqu.github.io/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://huiminqu.github.io/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://huiminqu.github.io/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://huiminqu.github.io/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://huiminqu.github.io/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://huiminqu.github.io/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://huiminqu.github.io/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://huiminqu.github.io/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="https://huiminqu.github.io/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="https://huiminqu.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://huiminqu.github.io/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://huiminqu.github.io/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://huiminqu.github.io/assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://huiminqu.github.io/">Huimin Qu</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://huiminqu.github.io/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://huiminqu.github.io/projects/">Projects</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://huiminqu.github.io/cv/">CV</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="https://huiminqu.github.io/images/profile.jpeg" class="author__avatar" alt="Huimin Qu">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Huimin Qu</h3>
+    <p class="author__bio">Undergraduate Student at Xiamen University. Research area: Astrophysics.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Xiamen, China</li>
+      
+      
+      
+      
+        <li><a href="mailto:quhuimin@stu.xmu.edu.cn"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/HuiminQu"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Addressable 2.5.2">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Addressable 2.5.2
+</h1>
+          
+        
+        
+        
+        
+             
+        
+    
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h1 id="addressable-252">Addressable 2.5.2</h1>
+<ul>
+  <li>better support for frozen string literals</li>
+  <li>fixed bug w/ uppercase characters in scheme</li>
+  <li>IDNA errors w/ emoji URLs</li>
+  <li>compatibility w/ public_suffix 3.x</li>
+</ul>
+
+<h1 id="addressable-251">Addressable 2.5.1</h1>
+<ul>
+  <li>allow unicode normalization to be disabled for URI Template expansion</li>
+  <li>removed duplicate test</li>
+</ul>
+
+<h1 id="addressable-250">Addressable 2.5.0</h1>
+<ul>
+  <li>dropping support for Ruby 1.9</li>
+  <li>adding support for Ruby 2.4 preview</li>
+  <li>add support for public suffixes and tld; first runtime dependency</li>
+  <li>hostname escaping should match RFC; underscores in hostnames no longer escaped</li>
+  <li>paths beginning with // and missing an authority are now considered invalid</li>
+  <li>validation now also takes place after setting a path</li>
+  <li>handle backslashes in authority more like a browser for <code class="language-plaintext highlighter-rouge">heuristic_parse</code></li>
+  <li>unescaped backslashes in host now raise an <code class="language-plaintext highlighter-rouge">InvalidURIError</code></li>
+  <li><code class="language-plaintext highlighter-rouge">merge!</code>, <code class="language-plaintext highlighter-rouge">join!</code>, <code class="language-plaintext highlighter-rouge">omit!</code> and <code class="language-plaintext highlighter-rouge">normalize!</code> don’t disable deferred validation</li>
+  <li><code class="language-plaintext highlighter-rouge">heuristic_parse</code> now trims whitespace before parsing</li>
+  <li>host parts longer than 63 bytes will be ignored and not passed to libidn</li>
+  <li>normalized values always encoded as UTF-8</li>
+</ul>
+
+<h1 id="addressable-240">Addressable 2.4.0</h1>
+<ul>
+  <li>support for 1.8.x dropped</li>
+  <li>double quotes in a host now raises an error</li>
+  <li>newlines in host will no longer get unescaped during normalization</li>
+  <li>stricter handling of bogus scheme values</li>
+  <li>stricter handling of encoded port values</li>
+  <li>calling <code class="language-plaintext highlighter-rouge">require 'addressable'</code> will now load both the URI and Template files</li>
+  <li>assigning to the <code class="language-plaintext highlighter-rouge">hostname</code> component with an <code class="language-plaintext highlighter-rouge">IPAddr</code> object is now supported</li>
+  <li>assigning to the <code class="language-plaintext highlighter-rouge">origin</code> component is now supported</li>
+  <li>fixed minor bug where an exception would be thrown for a missing ACE suffix</li>
+  <li>better partial expansion of URI templates</li>
+</ul>
+
+<h1 id="addressable-238">Addressable 2.3.8</h1>
+<ul>
+  <li>fix warnings</li>
+  <li>update dependency gems</li>
+  <li>support for 1.8.x officially deprecated</li>
+</ul>
+
+<h1 id="addressable-237">Addressable 2.3.7</h1>
+<ul>
+  <li>fix scenario in which invalid URIs don’t get an exception until inspected</li>
+  <li>handle hostnames with two adjacent periods correctly</li>
+  <li>upgrade of RSpec</li>
+</ul>
+
+<h1 id="addressable-236">Addressable 2.3.6</h1>
+<ul>
+  <li>normalization drops empty query string</li>
+  <li>better handling in template extract for missing values</li>
+  <li>template modifier for <code class="language-plaintext highlighter-rouge">'?'</code> now treated as optional</li>
+  <li>fixed issue where character class parameters were modified</li>
+  <li>templates can now be tested for equality</li>
+  <li>added <code class="language-plaintext highlighter-rouge">:sorted</code> option to normalization of query strings</li>
+  <li>fixed issue with normalization of hosts given in <code class="language-plaintext highlighter-rouge">'example.com.'</code> form</li>
+</ul>
+
+<h1 id="addressable-235">Addressable 2.3.5</h1>
+<ul>
+  <li>added Addressable::URI#empty? method</li>
+  <li>Addressable::URI#hostname methods now strip square brackets from IPv6 hosts</li>
+  <li>compatibility with Net::HTTP in Ruby 2.0.0</li>
+  <li>Addressable::URI#route_from should always give relative URIs</li>
+</ul>
+
+<h1 id="addressable-234">Addressable 2.3.4</h1>
+<ul>
+  <li>fixed issue with encoding altering its inputs</li>
+  <li>query string normalization now leaves ‘;’ characters alone</li>
+  <li>FakeFS is detected before attempting to load unicode tables</li>
+  <li>additional testing to ensure frozen objects don’t cause problems</li>
+</ul>
+
+<h1 id="addressable-233">Addressable 2.3.3</h1>
+<ul>
+  <li>fixed issue with converting common primitives during template expansion</li>
+  <li>fixed port encoding issue</li>
+  <li>removed a few warnings</li>
+  <li>normalize should now ignore %2B in query strings</li>
+  <li>the IDNA logic should now be handled by libidn in Ruby 1.9</li>
+  <li>no template match should now result in nil instead of an empty MatchData</li>
+  <li>added license information to gemspec</li>
+</ul>
+
+<h1 id="addressable-232">Addressable 2.3.2</h1>
+<ul>
+  <li>added Addressable::URI#default_port method</li>
+  <li>fixed issue with Marshalling Unicode data on Windows</li>
+  <li>improved heuristic parsing to better handle IPv4 addresses</li>
+</ul>
+
+<h1 id="addressable-231">Addressable 2.3.1</h1>
+<ul>
+  <li>fixed missing unicode data file</li>
+</ul>
+
+<h1 id="addressable-230">Addressable 2.3.0</h1>
+<ul>
+  <li>updated Addressable::Template to use RFC 6570, level 4</li>
+  <li>fixed compatibility problems with some versions of Ruby</li>
+  <li>moved unicode tables into a data file for performance reasons</li>
+  <li>removing support for multiple query value notations</li>
+</ul>
+
+<h1 id="addressable-228">Addressable 2.2.8</h1>
+<ul>
+  <li>fixed issues with dot segment removal code</li>
+  <li>form encoding can now handle multiple values per key</li>
+  <li>updated development environment</li>
+</ul>
+
+<h1 id="addressable-227">Addressable 2.2.7</h1>
+<ul>
+  <li>fixed issues related to Addressable::URI#query_values=</li>
+  <li>the Addressable::URI.parse method is now polymorphic</li>
+</ul>
+
+<h1 id="addressable-226">Addressable 2.2.6</h1>
+<ul>
+  <li>changed the way ambiguous paths are handled</li>
+  <li>fixed bug with frozen URIs</li>
+  <li>https supported in heuristic parsing</li>
+</ul>
+
+<h1 id="addressable-225">Addressable 2.2.5</h1>
+<ul>
+  <li>‘parsing’ a pre-parsed URI object is now a dup operation</li>
+  <li>introduced conditional support for libidn</li>
+  <li>fixed normalization issue on ampersands in query strings</li>
+  <li>added additional tests around handling of query strings</li>
+</ul>
+
+<h1 id="addressable-224">Addressable 2.2.4</h1>
+<ul>
+  <li>added origin support from draft-ietf-websec-origin-00</li>
+  <li>resolved issue with attempting to navigate below root</li>
+  <li>fixed bug with string splitting in query strings</li>
+</ul>
+
+<h1 id="addressable-223">Addressable 2.2.3</h1>
+<ul>
+  <li>added :flat_array notation for query strings</li>
+</ul>
+
+<h1 id="addressable-222">Addressable 2.2.2</h1>
+<ul>
+  <li>fixed issue with percent escaping of ‘+’ character in query strings</li>
+</ul>
+
+<h1 id="addressable-221">Addressable 2.2.1</h1>
+<ul>
+  <li>added support for application/x-www-form-urlencoded.</li>
+</ul>
+
+<h1 id="addressable-220">Addressable 2.2.0</h1>
+<ul>
+  <li>added site methods</li>
+  <li>improved documentation</li>
+</ul>
+
+<h1 id="addressable-212">Addressable 2.1.2</h1>
+<ul>
+  <li>added HTTP request URI methods</li>
+  <li>better handling of Windows file paths</li>
+  <li>validation_deferred boolean replaced with defer_validation block</li>
+  <li>normalization of percent-encoded paths should now be correct</li>
+  <li>fixed issue with constructing URIs with relative paths</li>
+  <li>fixed warnings</li>
+</ul>
+
+<h1 id="addressable-211">Addressable 2.1.1</h1>
+<ul>
+  <li>more type checking changes</li>
+  <li>fixed issue with unicode normalization</li>
+  <li>added method to find template defaults</li>
+  <li>symbolic keys are now allowed in template mappings</li>
+  <li>numeric values and symbolic values are now allowed in template mappings</li>
+</ul>
+
+<h1 id="addressable-210">Addressable 2.1.0</h1>
+<ul>
+  <li>refactored URI template support out into its own class</li>
+  <li>removed extract method due to being useless and unreliable</li>
+  <li>removed Addressable::URI.expand_template</li>
+  <li>removed Addressable::URI#extract_mapping</li>
+  <li>added partial template expansion</li>
+  <li>fixed minor bugs in the parse and heuristic_parse methods</li>
+  <li>fixed incompatibility with Ruby 1.9.1</li>
+  <li>fixed bottleneck in Addressable::URI#hash and Addressable::URI#to_s</li>
+  <li>fixed unicode normalization exception</li>
+  <li>updated query_values methods to better handle subscript notation</li>
+  <li>worked around issue with freezing URIs</li>
+  <li>improved specs</li>
+</ul>
+
+<h1 id="addressable-202">Addressable 2.0.2</h1>
+<ul>
+  <li>fixed issue with URI template expansion</li>
+  <li>fixed issue with percent escaping characters 0-15</li>
+</ul>
+
+<h1 id="addressable-201">Addressable 2.0.1</h1>
+<ul>
+  <li>fixed issue with query string assignment</li>
+  <li>fixed issue with improperly encoded components</li>
+</ul>
+
+<h1 id="addressable-200">Addressable 2.0.0</h1>
+<ul>
+  <li>the initialize method now takes an options hash as its only parameter</li>
+  <li>added query_values method to URI class</li>
+  <li>completely replaced IDNA implementation with pure Ruby</li>
+  <li>renamed Addressable::ADDRESSABLE_VERSION to Addressable::VERSION</li>
+  <li>completely reworked the Rakefile</li>
+  <li>changed the behavior of the port method significantly</li>
+  <li>Addressable::URI.encode_segment, Addressable::URI.unencode_segment renamed</li>
+  <li>documentation is now in YARD format</li>
+  <li>more rigorous type checking</li>
+  <li>to_str method implemented, implicit conversion to Strings now allowed</li>
+  <li>Addressable::URI#omit method added, Addressable::URI#merge method replaced</li>
+  <li>updated URI Template code to match v 03 of the draft spec</li>
+  <li>added a bunch of new specifications</li>
+</ul>
+
+<h1 id="addressable-104">Addressable 1.0.4</h1>
+<ul>
+  <li>switched to using RSpec’s pending system for specs that rely on IDN</li>
+  <li>fixed issue with creating URIs with paths that are not prefixed with ‘/’</li>
+</ul>
+
+<h1 id="addressable-103">Addressable 1.0.3</h1>
+<ul>
+  <li>implemented a hash method</li>
+</ul>
+
+<h1 id="addressable-102">Addressable 1.0.2</h1>
+<ul>
+  <li>fixed minor bug with the extract_mapping method</li>
+</ul>
+
+<h1 id="addressable-101">Addressable 1.0.1</h1>
+<ul>
+  <li>fixed minor bug with the extract_mapping method</li>
+</ul>
+
+<h1 id="addressable-100">Addressable 1.0.0</h1>
+<ul>
+  <li>heuristic parse method added</li>
+  <li>parsing is slightly more strict</li>
+  <li>replaced to_h with to_hash</li>
+  <li>fixed routing methods</li>
+  <li>improved specifications</li>
+  <li>improved heckle rake task</li>
+  <li>no surviving heckle mutations</li>
+</ul>
+
+<h1 id="addressable-012">Addressable 0.1.2</h1>
+<ul>
+  <li>improved normalization</li>
+  <li>fixed bug in joining algorithm</li>
+  <li>updated specifications</li>
+</ul>
+
+<h1 id="addressable-011">Addressable 0.1.1</h1>
+<ul>
+  <li>updated documentation</li>
+  <li>added URI Template variable extraction</li>
+</ul>
+
+<h1 id="addressable-010">Addressable 0.1.0</h1>
+<ul>
+  <li>initial release</li>
+  <li>implementation based on RFC 3986, 3987</li>
+  <li>support for IRIs via libidn</li>
+  <li>support for the URI Template draft spec</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    </script>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/HuiminQu"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://huiminqu.github.io/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Huimin Qu. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="https://huiminqu.github.io/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+  </body>
+</html>
+

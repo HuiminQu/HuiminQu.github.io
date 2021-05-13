@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shreyas Skandan"
+title                    : "Huimin Qu"
 title_separator          : "-"
-name                     : &name "Shreyas Skandan"
-description              : &description "PhD Student at the University of Pennsylvania"
-url                      : https://shreyasskandan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Huimin Qu"
+description              : &description "Undergraduate Student at Xiamen University"
+url                      : https://huiminqu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "shreyasskandan.github.io"
+repository               : "HuiminQu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -79,13 +79,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shreyas S. Shivakumar"
+  name             : "Huimin Qu"
   avatar           : "profile.jpeg"
-  bio              : "CIS PhD Student with Dr. Camillo J. Taylor. Research area: Computer Vision and Machine Learning applied to mobile robots."
-  location         : "Philadelphia, PA"
+  bio              : "Undergraduate Student at Xiamen University. Research area: Astrophysics."
+  location         : "Xiamen, China"
   employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=8lcIYTYAAAAJ&hl=en&oi=ao"
-  email            : "sshreyas@seas.upenn.edu"
+  googlescholar    : #"https://scholar.google.com/citations?user=8lcIYTYAAAAJ&hl=en&oi=ao"
+  email            : "quhuimin@stu.xmu.edu.cn"
   uri              :
   bitbucket        :
   codepen          :
@@ -93,19 +93,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ShreyasSkandanS"
+  github           : "HuiminQu"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "shreyasskandan"
-  orcid            : "https://orcid.org/0000-0003-2633-0203"
+  linkedin         : #"shreyasskandan"
+  orcid            : #"https://orcid.org/0000-0003-2633-0203"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "ShreyasSkandan"
+  twitter          : #"ShreyasSkandan"
   vine             :
   weibo            :
   xing             :
@@ -254,7 +254,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
