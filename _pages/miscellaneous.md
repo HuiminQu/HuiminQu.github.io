@@ -14,7 +14,7 @@ redirect_from:
 * This is Scientific Technology and Innovation Center (STIC) at College of Physics, at Xiamen University!
 * We are the STIC people!
 
-![alt astronomy](../images/STIC2.PNG)
+![alt astronomy](../images/STIC2.jpg)
 ======
 * 我爱你，请再见！I love you, Goodbye! Aloha!
 
