@@ -9,9 +9,20 @@ redirect_from:
 
 {% include base_path %}
 
-![alt astronomy](../images/pink_planet.jpg)
+![alt astronomy](../images/STIC1.jpg)
 ======
-* pink planet，GJ 504b
+* This is Scientific Technology and Innovation Center (STIC) at College of Physics, at Xiamen University!
+* We are the STIC people!
+
+![alt astronomy](../images/STIC2.PNG)
+======
+* 我爱你，请再见！I love you, Goodbye! Aloha!
+
+---
+![alt movie](../images/psc.jpg)
+======
+* movies: Big Fish
+
 
 ---
 ![alt movie](../images/psc.jpg)
