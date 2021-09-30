@@ -9,22 +9,20 @@ redirect_from:
 
 {% include base_path %}
 
+* The life is complicated and varied. I enjoy picking some cherished parts, just like the white cubes in the game, Rusty Lake, and editing them to produce vedios, uploaded on [my bilibili website: https://space.bilibili.com/62263703](https://space.bilibili.com/62263703). 
+* In my college, I have joined a lovely group and met amazing friends:
 ![alt astronomy](../images/STIC1.jpg)
 ======
 * This is Scientific Technology and Innovation Center (STIC) at College of Physics, at Xiamen University!
-* We are the STIC people!
+ We are the STIC people!
 
-![alt astronomy](../images/STIC2.jpg)
+![alt astronomy](../images/STIC2.PNG)
 ======
-* 我爱你，请再见！I love you, Goodbye! Aloha!
+ 我爱你，请再见！I love you, Goodbye! 
 
 ---
-![alt movie](../images/psc.jpg)
+* Movies for idealist
 ======
-* movies: Big Fish
-
-
----
-![alt movie](../images/psc.jpg)
+![alt movie](../images/deadpoets.jpg)![alt movie](../images/paradise.jpg)
 ======
-* movies: Big Fish
+* Always hold the wish to impact others positively. 
