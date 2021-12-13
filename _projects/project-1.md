@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 title: "Growths of Stellar-mass Black Holes in the Accretion Scenarios"
 excerpt: "accretion, accretion disks - black hole physics - gamma-ray burst: general - neutrinos"
 permalink: /project_1/
@@ -19,5 +19,5 @@ The idea of this project was developed when working on my [last project](https:/
 The ultrarelativistic jets triggered by neutrino annihilation processes or Blandford-Znajek (BZ) mechanisms in stellar-mass black hole (BH) hyperaccretion systems are generally considered to power gamma-ray bursts (GRBs). Due to the high accretion rate, the central BHs might grow rapidly on a short timescale, providing a new way to understand "the lower mass gap" problem. In this work, Since NDAF is a plausible central engine model of gamma-ray bursts (GRBs), whose energy is powered via neutrino annihilation, we can confine the characteristics based on the observational GRBs data. We study the analytical model for the evolutive central engine of GRBs using different initial BH parameters. By applying the numerical results, we can feasibly compare the growth in mass for different circumstances. The result will contribute to solving the mass gap problem for compact objects. With more and more electromagnetic and gravitational wave observations for compact objects, we are looking forward to more creative perspectives about the mechanisms in supernova explosion and black hole evolution, as well as confines of progenitors' distrubution and properties.<br><br>
 
 The paper (author: Huimin Qu, Tong Liu) has been submitted to ApJ.<br>
-You can see the manuscript [here](../assets/Revisiting black hole hyperaccretion in the center of gamma-ray bursts for the lower mass gap.pdf)**
+You can see the manuscript </span>[here](../assets/Revisiting black hole hyperaccretion in the center of gamma-ray bursts for the lower mass gap.pdf)</span>
 
