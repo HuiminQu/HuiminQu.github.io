@@ -21,6 +21,10 @@ redirect_from:
  我爱你，请再见！I love you, Goodbye! 
 
 ---
+
+* Welcome new 'children' to our family:
+
+![alt astronomy](../images/pt_family.jpg)
 * Movies for idealist
 ======
 ![alt movie](../images/deadpoets.jpg)![alt movie](../images/paradise.jpg)
