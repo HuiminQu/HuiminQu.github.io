@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: archive
 title: "Evolutions of Stellar-mass Black Holes in the Accretion Scenarios "
 excerpt: "accretion, accretion disks - black hole physics - gamma-ray burst: general - neutrinos"
 permalink: /project_1/
