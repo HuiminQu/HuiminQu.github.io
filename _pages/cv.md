@@ -10,6 +10,6 @@ redirect_from:
 {% include base_path %}
 
 
-* Download <font color="blue">[here](../assets/CV_HuiminQu.pdf)</font>
+* Download [<font color="blue">here</font>](../assets/CV_HuiminQu.pdf)
 
 * I'm really sorry for having sent the CV which had some mistakes to some graduate schools. The renewed version is above.
