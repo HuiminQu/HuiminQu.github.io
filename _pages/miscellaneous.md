@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+* Recently, I was reading the book [<font color="blue">River Town</font>](../assets/River Town (Two Years on the Yangtze) by Peter Hessler.pdf). It's about the city, Fuling, which is also near my hometown, Chongqing.
+
 * The life is complicated and varied. I enjoy picking some cherished parts, just like the white cubes in the game, Rusty Lake, and editing them to produce vedios, uploaded on [my bilibili website: https://space.bilibili.com/62263703](https://space.bilibili.com/62263703). 
 * In my college, I have joined a lovely group and met amazing friends:
 ![alt astronomy](../images/STIC1.jpg)
