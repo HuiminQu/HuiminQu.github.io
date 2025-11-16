@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Huimin Qu"
 title_separator          : "-"
 name                     : &name "Huimin Qu"
-description              : &description "Undergraduate Student at Xiamen University"
+description              : &description "Ph.D. Candidate at the University of Sydney"
 url                      : https://huiminqu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "HuiminQu.github.io"
+repository               : "HuiminQu/HuiminQu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,12 +80,12 @@ analytics:
 # Site Author
 author:
   name             : "Huimin Qu"
-  avatar           : "profile.JPG"
-  bio              : "Undergraduate Student at Xiamen University. Research area: Astrophysics."
-  location         : "Xiamen, China"
+  avatar           : "profile_new.JPG"
+  bio              : "Ph.D. Candidate at SIfA (Sydney Institute for Astronomy)"
+  location         : "Sydney, Australia"
   employer         :
   googlescholar    : #"https://scholar.google.com/citations?user=8lcIYTYAAAAJ&hl=en&oi=ao"
-  email            : "quhuimin@stu.xmu.edu.cn"
+  email            : "huqu9381@uni.sydney.edu.au"
   uri              :
   bitbucket        :
   codepen          :

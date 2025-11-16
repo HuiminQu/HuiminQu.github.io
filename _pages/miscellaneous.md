@@ -9,20 +9,31 @@ redirect_from:
 
 {% include base_path %}
 
-* In my college, I have joined a lovely group and met amazing friends:
-![alt astronomy](../images/STIC1.jpg)
+Hobbies
 ======
 
-![alt astronomy](../images/STIC2.PNG)
-======
+Outside of research, I enjoy photography, bouldering, and playing badminton.
+Here are some moments from my work and life.
 
----
+<!-- 第一行：左一右二 -->
+<div style="display: flex; gap: 10px; max-height: 500px;"> <!-- 设置总高度 -->
+  <!-- 左边第一张 -->
+  <div style="flex: 1;">
+    <img src="../images/misc1.jpg" alt="" style="width: 110%; height: 110%; object-fit: cover;">
+  </div>
 
-* Welcome new 'children' to our family:
+  <!-- 右边第二、第三张 -->
+  <div style="flex: 1; display: flex; flex-direction: column; gap: 10px;">
+    <img src="../images/misc2.jpg" alt="" style="flex: 1; width: 80%; object-fit: cover;">
+    <img src="../images/misc3.jpg" alt="" style="flex: 1; width: 80%; object-fit: cover;">
+  </div>
+</div>
 
-![alt astronomy](../images/pt_family.jpg)
-* Movies for idealist
-======
-![alt movie](../images/deadpoets.jpg)![alt movie](../images/paradise.jpg)
-======
-* Always hold the wish to impact others positively. 
+<br> <!-- 第一行和第二行间隔 -->
+
+<!-- 第二行：第四、第五张照片 -->
+<div style="display: flex; gap: 10px;">
+  <img src="../images/misc4.jpg" alt="" style="width: 50%; object-fit: cover;">
+  <img src="../images/misc5.jpg" alt="" style="width: 50%; object-fit: cover;">
+</div>
+
