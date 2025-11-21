@@ -15,8 +15,7 @@ I am a member of the [AGEL](https://sites.google.com/view/agelsurvey/research/hu
 
 More broadly, I am interested in questions in cosmology and dark matter, and in developing statistical methodologies for extracting physical information from complex astronomical data.
 
-More broadly, I am interested in cosmology, dark matter, and in developing statistical 
-methodologies for extracting physical information from complex astronomical data. 
+More broadly, I am motivated by developing and applying scalable inference techniques and statistical methodologies to extract physical information from complex astronomical data, with applications to galaxy evolution, cosmology, and time-domain astronomy.
 
 Recent work includes [the multi-band reconstruction of 16 strong lens systems using PISCO data](../posts/HuiminQu_Paper1.pdf).
 
