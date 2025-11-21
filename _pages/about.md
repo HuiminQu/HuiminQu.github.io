@@ -13,8 +13,6 @@ My research focuses on reconstructing strong gravitational lens systems within a
 
 I am a member of the [AGEL](https://sites.google.com/view/agelsurvey/research/hubble-images?authuser=0) collaboration, which spectroscopically confirms a diverse sample of gravitational lenses and provides high-resolution imaging for the study of galaxy structure and evolution.
 
-More broadly, I am interested in questions in cosmology and dark matter, and in developing statistical methodologies for extracting physical information from complex astronomical data.
-
 More broadly, I am motivated by developing and applying scalable inference techniques and statistical methodologies to extract physical information from complex astronomical data, with applications to galaxy evolution, cosmology, and time-domain astronomy.
 
 Recent work includes [the multi-band reconstruction of 16 strong lens systems using PISCO data](../posts/HuiminQu_Paper1.pdf).
