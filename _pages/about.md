@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Huimin Qu (瞿惠敏), a Ph.D. candidate at the Sydney Institute for Astronomy (SIfA), the University of Sydney.  
+Hi, I am Huimin Qu (瞿惠敏), a Ph.D. candidate at the Sydney Institute for Astronomy (SIfA), the University of Sydney, under the supervision of Prof. <a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/geraint-lewis.html" style="color:blue;">Geraint F. Lewis</a>.  
 My research focuses on reconstructing strong gravitational lens systems within a Bayesian inference framework, with an emphasis on modeling multi-band imaging and joint lensing–kinematics data.  
 
 I am a member of the [AGEL](https://sites.google.com/view/agelsurvey/research/hubble-images?authuser=0) collaboration, which spectroscopically confirms a diverse sample of gravitational lenses and provides high-resolution imaging for the study of galaxy structure and evolution.
