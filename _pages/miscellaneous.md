@@ -21,6 +21,8 @@ Here are some moments from my work and life.
   <img src="../images/conference.jpg" alt="" style="width: 50%; object-fit: cover;">
 </div>
 
+<br> <!-- 第一行和第二行间隔 -->
+
 <!-- 第二行：左一右二 -->
 <div style="display: flex; gap: 10px; max-height: 500px;"> <!-- 设置总高度 -->
   <!-- 左边第一张 -->
