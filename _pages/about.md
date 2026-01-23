@@ -15,8 +15,6 @@ I am a member of the [AGEL](https://sites.google.com/view/agelsurvey/research/hu
 
 More broadly, I am motivated by developing and applying scalable inference techniques and statistical methodologies to extract physical information from complex astronomical data, with applications to galaxy evolution, cosmology, and time-domain astronomy.
 
-Recent work includes [the multi-band reconstruction of 16 strong lens systems using PISCO data](../posts/HuiminQu_Paper1.pdf).
-
 My CV can be found [here](../posts/HuiminQu_CV.pdf).
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5wnai2oesm2&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
