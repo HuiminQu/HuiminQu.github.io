@@ -10,7 +10,7 @@ redirect_from:
 
 Hi, I am Huimin Qu (瞿惠敏), a postdoctoral researcher at Caltech/IPAC, working with Dr. [Andreas Faisst](https://sites.astro.caltech.edu/~afaisst/index.html) and Dr. [Kyle Finner](https://kylefinner.github.io).
 
-My current research focuses on developing SLETE, a tool for optimizing the extraction of photometry and spectroscopy of strong lens systems from Euclid data. Ultimately, I am interested in using these observations to decode the dark matter structure and evolution of galaxies.
+My current research focuses on developing SLETE, a tool for optimizing the extraction of photometry and spectroscopy of strong lens systems from Euclid data. Ultimately, I am interested in using these observations to understand the dark matter structure of galaxies and their evolution.
 
 Previously, I completed my Ph.D. at the University of Sydney under the supervision of Prof. ⁠Geraint F. Lewis, where my research focused on Bayesian modeling of strong gravitational lens systems.
 
