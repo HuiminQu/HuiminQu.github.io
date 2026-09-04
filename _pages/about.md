@@ -8,12 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Huimin Qu (瞿惠敏), a Ph.D. candidate at the Sydney Institute for Astronomy (SIfA), the University of Sydney, under the supervision of Prof. [Geraint F. Lewis](https://www.sydney.edu.au/science/about/our-people/academic-staff/geraint-lewis.html).  
-My research focuses on reconstructing strong gravitational lens systems within a Bayesian inference framework, with an emphasis on modeling multi-band imaging and joint lensing–kinematics data.  
+Hi, I am Huimin Qu (瞿惠敏), a postdoctoral researcher at Caltech/IPAC, working with Dr. [Andreas Faisst](https://sites.astro.caltech.edu/~afaisst/index.html) and Dr. [Kyle Finner](https://kylefinner.github.io).
 
-I am a member of the [AGEL](https://sites.google.com/view/agelsurvey/research/hubble-images?authuser=0) collaboration, which spectroscopically confirms a diverse sample of gravitational lenses and provides high-resolution imaging for the study of galaxy structure and evolution.
+My current research focuses on developing SLETE, a tool for optimizing the extraction of photometry and spectroscopy of strong lens systems from Euclid data. Ultimately, I am interested in using these observations to decode the dark matter structure and evolution of galaxies.
 
-More broadly, I am motivated by developing and applying scalable inference techniques and statistical methodologies to extract physical information from complex astronomical data, with applications to galaxy evolution, cosmology, and time-domain astronomy.
+Previously, I completed my Ph.D. at the University of Sydney under the supervision of Prof. ⁠Geraint F. Lewis, where my research focused on Bayesian modeling of strong gravitational lens systems.
+
+I am also a member of the [AGEL](https://sites.google.com/view/agelsurvey/research/hubble-images?authuser=0) collaboration, which spectroscopically confirms a diverse sample of gravitational lenses and provides high-resolution imaging for the study of galaxy structure and evolution.
+
+More broadly, I am interested in developing and applying scalable inference techniques and statistical methodologies to extract physical information from complex astronomical data, with applications to galaxy evolution and cosmology.
 
 My CV can be found [here](../posts/HuiminQu_CV.pdf).
 

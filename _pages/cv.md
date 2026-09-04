@@ -20,6 +20,6 @@ Education
 * Ph.D in Astrophysics, the University of Sydney,
   Sydney, Australia. 2026 (expected).   
   Advisor: <a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/geraint-lewis.html" style="color:blue;">Geraint F. Lewis</a>  
-  Thesis: Reconstructing the dark matter properties of lensing galaxies in the strong gravitational lensing regime.  
+  Thesis: Bayesian Reconstruction of Mass Distributions in Strong Gravitational Lensing Systems.  
 
 My CV can be found <a href="../posts/HuiminQu_CV.pdf" style="color:blue;">here</a>.
