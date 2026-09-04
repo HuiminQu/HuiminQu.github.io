@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Huimin Qu"
 title_separator          : "-"
 name                     : &name "Huimin Qu"
-description              : &description "Ph.D. Candidate at the University of Sydney"
+description              : &description "Postdoc at Caltech/IPAC"
 url                      : https://huiminqu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "HuiminQu/HuiminQu.github.io"
@@ -81,11 +81,11 @@ analytics:
 author:
   name             : "Huimin Qu"
   avatar           : "profile.JPG"
-  bio              : "Ph.D. Candidate at SIfA (Sydney Institute for Astronomy)"
-  location         : "Sydney, Australia"
+  bio              : "Postdoc at Caltech/IPAC"
+  location         : "Pasadena, USA"
   employer         :
   googlescholar    : #"https://scholar.google.com/citations?user=8lcIYTYAAAAJ&hl=en&oi=ao"
-  email            : "huqu9381@uni.sydney.edu.au"
+  email            : "huimin@ipac.caltech.edu"
   uri              :
   bitbucket        :
   codepen          :
